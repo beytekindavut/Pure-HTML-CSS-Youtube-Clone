@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <!-- Font Awesome simgeleri için -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
+  <header>
+
+    <div class="header-container">
+
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+     
+
+        <a href="#" class="logo">
+            <i class="fab fa-youtube logo-icon"></i>
+            YouTube
+        </a>
+
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Ara ">
+            <button class="search-button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+
+        <div class="header-icons">
+
+            <button class="icon-button">
+                <i class="fas fa-video"></i>
+            </button>
+
+            <button class="icon-button">
+                <i class="fas fa-bell"></i>
+            </button>
+
+            <div class="profile-img"></div>
+
+        </div>
+        
+    </div>
+
+  </header>
+
+
+  <div class="main-container">
+
+    <div class="sidebar">
+
+      <div class="sidebar-section">
+
+        <a href="#" class="sidebar-item active">
+            <i class="fas fa-home"></i>
+            <span>Ana Sayfa</span>
+        </a>
+
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-compass"></i>
+            <span>Kesfet</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-play-circle"></i>
+            <span>Shorts</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-broadcast-tower"></i>
+            <span>Abonelikler</span>
+        </a>
+
+      </div>
+
+
+      <div class="sidebar-section">
+        
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-photo-video"></i>
+            <span>Kitapliginiz</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-history"></i>
+            <span>Gecmis</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-clock"></i>
+            <span>Daha Sonra Izle</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-thumbs-up"></i>
+            <span>Beyenilen Videolar</span>
+        </a>
+
+      </div>
+
+
+      <div class="sidebar-section">
+        
+        <div class="sidebar-title"> ABONELİKLER </div>
+
+        <a href="#" class="sidebar-item">
+           <div class="channel-avatar" style="background-color: #ff6b6b;">TK</div>
+           <span>Teknoloji Kanali</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <div class="channel-avatar" style="background-color: #4ecdc4;"  >MD</div>
+            <span>Müzik Dünyası</span>
+        </a>
+
+         <a href="#" class="sidebar-item">
+           <div class="channel-avatar" style="background-color: #45b7d1;">OR</div>
+           <span>Oyun Rehberi</span>
+         </a>
+
+         <a href="#" class="sidebar-item">
+            <div class="channel-avatar" style="background-color: #96ceb4;">YT</div>
+            <span>Yemek Tarifleri</span>
+         </a>
+
+         <a href="#" class="sidebar-item">
+            <div class="channel-avatar" style="background-color: #feca57;" >SV</div>
+            <span>Seyahat Vlog</span>
+         </a>
+
+      </div>
+
+
+      <div class="sidebar-section">
+
+        <div class="sidebar-title"> YOUTUBE ARAÇLARI </div>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-play-circle"></i>
+            <span>YouTube Premium</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-film"></i>
+            <span>Filmler</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+            <i class="fas fa-gamepad"></i>
+            <span>Oyunlar</span>
+        </a>
+
+        <a href="#" class="sidebar-item">
+              <i class="fas fa-wifi"></i>
+            <span>Canli</span>
+        </a>
+   
+      </div>
+
+
+     <div class="sidebar-section">
+
+                <a href="#" class="sidebar-item">
+                    <i class="fas fa-cog"></i>
+                    <span>Ayarlar</span>
+                </a>
+
+                <a href="#" class="sidebar-item">
+                    <i class="fas fa-flag"></i>
+                    <span>Şikayet geçmişi</span>
+                </a>
+
+                <a href="#" class="sidebar-item">
+                    <i class="fas fa-question-circle"></i>
+                    <span>Yardım</span>
+                </a>
+
+                <a href="#" class="sidebar-item">
+                    <i class="fas fa-comment-alt"></i>
+                    <span>Geri bildirim gönder</span>
+                </a>
+
+     </div>
+
+     </div>
+
+     <div class="content">
+
+        <div class="banner">
+
+            <div class="banner-content">
+                <h2>YouTube Premium'u Keşfedin</h2>
+                <p>Reklamsız, arka planda oynatma ve çevrimdışı indirme özelliklerinin keyfini çıkarın</p>
+            </div>
+
+            <button class="banner-button">1 AY ÜCRETSİZ DENE</button>
+
+        </div>
+        
+
+        <div class="video-grid">
+
+            <div class="video-card">
+              
+                <div class="thumbnail-container">
+                <img src="https://picsum.photos/id/100/320/180" alt="Video" class="thumbnail">
+                <div class="video-duration"> 10:37 </div>
+                </div>
+
+                <div class="video-info">
+
+                    <div class="channel-avatar" style="background-color: #ff6b6b;"></div>
+
+                    <div class="video-details">
+                        <div class="video-title">Yeni Teknoloji Trendleri 2023 | Geleceğin Teknolojileri</div>
+
+                        <div class="video-meta">
+                             <div class="channel-name">Teknoloji Kanalı</div>
+
+                             <div class="video-stats">
+                                 <span>245 bin görüntüleme</span>
+                                <span>•</span>
+                                <span>3 gün önce</span>
+                             </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+                    <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/id/200/320/180" alt="Video" class="thumbnail">
+                        <div class="video-duration">15:42</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar" style="background-color: #4ecdc4;"></div>
+                        <div class="video-details">
+                            <div class="video-title">En İyi 2023 Yaz Şarkıları | Yeni Müzik Listesi</div>
+                            <div class="video-meta">
+                                <div class="channel-name">Müzik Dünyası</div>
+                                <div class="video-stats">
+                                    <span>1.2 milyon görüntüleme</span>
+                                    <span>•</span>
+                                    <span>1 hafta önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                        <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/id/300/320/180" alt="Video" class="thumbnail">
+                        <div class="video-duration">22:18</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar" style="background-color: #45b7d1;"></div>
+                        <div class="video-details">
+                            <div class="video-title">Yeni Oyun İncelemesi: Sonsuz Macera Episod 3</div>
+                            <div class="video-meta">
+                                <div class="channel-name">Oyun Rehberi</div>
+                                <div class="video-stats">
+                                    <span>542 bin görüntüleme</span>
+                                    <span>•</span>
+                                    <span>2 gün önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                          <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/id/400/320/180" alt="Video" class="thumbnail">
+                        <div class="video-duration">8:35</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar" style="background-color: #96ceb4;"></div>
+                        <div class="video-details">
+                            <div class="video-title">Kolay ve Lezzetli: 5 Dakikada Çikolatalı Kek</div>
+                            <div class="video-meta">
+                                <div class="channel-name">Yemek Tarifleri</div>
+                                <div class="video-stats">
+                                    <span>890 bin görüntüleme</span>
+                                    <span>•</span>
+                                    <span>1 ay önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                              <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/id/500/320/180" alt="Video" class="thumbnail">
+                        <div class="video-duration">18:07</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar" style="background-color: #feca57;"></div>
+                        <div class="video-details">
+                            <div class="video-title">İstanbul'un Gizli Kalmış Sokakları | Gezi Rehberi</div>
+                            <div class="video-meta">
+                                <div class="channel-name">Seyahat Vlog</div>
+                                <div class="video-stats">
+                                    <span>321 bin görüntüleme</span>
+                                    <span>•</span>
+                                    <span>5 gün önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                              <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/id/600/320/180" alt="Video" class="thumbnail">
+                        <div class="video-duration">12:53</div>
+                    </div>
+                    <div class="video-info">
+                        <div class="channel-avatar" style="background-color: #ff9ff3;"></div>
+                        <div class="video-details">
+                            <div class="video-title">Photoshop'ta Profesyonel Fotoğraf Düzenleme Teknikleri</div>
+                            <div class="video-meta">
+                                <div class="channel-name">Tasarım Atölyesi</div>
+                                <div class="video-stats">
+                                    <span>156 bin görüntüleme</span>
+                                    <span>•</span>
+                                    <span>2 hafta önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                        <div class="video-card">
+
+                    <div class="thumbnail-container">
+                        <img src="https://picsum.photos/id/700/320/180" alt="Video" class="thumbnail">
+                        <div class="video-duration">25:41</div>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="channel-avatar" style="background-color: #54a0ff;"></div>
+                        <div class="video-details">
+                            <div class="video-title">Python Programlama: Sıfırdan İleri Seviyeye</div>
+                            <div class="video-meta">
+                                <div class="channel-name">Kodlama Akademi</div>
+                                <div class="video-stats">
+                                    <span>678 bin görüntüleme</span>
+                                    <span>•</span>
+                                    <span>3 hafta önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+        </div>
+      
+
+
+     </div>
+        
+    </div>
+
+
+  
+
+  </div>
+    
+</body>
+</html>
